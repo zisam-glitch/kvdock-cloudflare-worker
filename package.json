@@ -1,0 +1,17 @@
+{
+  "name": "kvdock-cloudflare-worker",
+  "version": "1.0.0",
+  "description": "Cloudflare Workers edge caching and session starter powered by kvdock",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "wrangler": "*",
+    "kvdock": "^0.2.1"
+  },
+  "keywords": ["kvdock", "kv", "cache", "storage", "kvdock-cloudflare-worker"],
+  "author": "zisam shaikh <zisamshaikh7@gmail.com>",
+  "license": "MIT"
+}
